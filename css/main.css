@@ -1,0 +1,112 @@
+html {
+	background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+ 
+   	font-family: verdana, Arial, sans-serif;
+    font-size: 12px;
+    color: white;
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 1020px;
+    border: 1px solid white;
+}
+
+
+#header {
+   	height: 200px;
+    position: relative;
+    border: 1px solid white;
+}
+
+#nav {
+    height: 100px;
+    border: 1px solid white;
+    
+}
+
+
+.menu{
+
+    width: 1000px;
+    margin: 0px auto 0 auto;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.menu li{
+
+    float: left;
+    width: 200px;
+    height: 100px;
+    border: 1px solid white;
+
+    
+}
+
+.menu li a{
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+
+#middle{
+    height: 400px;
+    width: 600px;
+    border: 1px white solid;
+    float: left;
+    position: relative;
+}
+
+#left,  #right {
+    display: inline;
+    float: left;
+    position: relative;
+    width: 200px;
+    border: 1px white solid;
+}
+
+#chart{
+
+	height: 120px;
+     
+    width: 1000px;
+    border: 1px solid white;
+}
+
+
+#footer {
+ 
+    height: 330px;
+    font-size: 18px; 
+    width: 1000px;
+    
+    border: 1px solid white;  
+}
+
+
+#lFooter, #mFooter, #rFooter{
+	width:300px;
+	float: left;
+    display: block;
+    height: 300px;
+    border: 1px white solid;
+    padding-bottom: 0px;
+}
